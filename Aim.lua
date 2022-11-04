@@ -29,7 +29,7 @@ local SilentAimSettings = {
 
 -- variables
 getgenv().SilentAimSettings = Settings
-local MainFileName = "AimBotNew"
+local MainFileName = "UniversalSilentAim"
 local SelectedFile, FileToSave = "", ""
 
 local Camera = workspace.CurrentCamera
@@ -240,7 +240,7 @@ local function getClosestPlayer()
 end
 
 -- ui creating & handling
-local Library = loadstring(game:HttpGet("https://github.com/Maykinn/AimbotNew/new/main/Aim.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.github.com/Maykinn/AimbotNew/edit/main/Aim.lua"))()
 Library:SetWatermark("github.com/Maykinn")
 
 local Window = Library:CreateWindow("Universal Silent Aim, by Averiias, xaxa, and Stefanuk12")
